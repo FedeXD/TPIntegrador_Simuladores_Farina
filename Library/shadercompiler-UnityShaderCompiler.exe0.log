@@ -1,2 +1,40 @@
 Base path: 'C:/Program Files/Unity/Editor/2019.4.12f1/Editor/Data', plugins path 'C:/Program Files/Unity/Editor/2019.4.12f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=31429 outsize=1594 ok=1
+Cmd: preprocess
+  insize=3033 outsize=276 ok=1
+Cmd: preprocess
+  insize=3270 outsize=278 ok=1
+Cmd: preprocess
+  insize=3954 outsize=275 ok=1
+Cmd: preprocess
+  insize=7137 outsize=285 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=28223 outsize=1762 ok=1
+Cmd: preprocess
+  insize=3683 outsize=353 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8751 outsize=1026 kw=UNITY_PASS_SHADOWCASTER pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: preprocess
+  insize=27095 outsize=1768 ok=1
+Cmd: preprocess
+  insize=28379 outsize=1601 ok=1
