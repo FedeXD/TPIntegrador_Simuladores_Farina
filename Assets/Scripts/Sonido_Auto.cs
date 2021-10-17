@@ -28,6 +28,6 @@ public class Sonido_Auto : MonoBehaviour
             audioSource.pitch = pitchAuto;
         }
         
-
     }
+
 }
