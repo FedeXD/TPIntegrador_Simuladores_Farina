@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\Control_Camara.cs" />
      <Compile Include="Assets\Scripts\Control_Coche.cs" />
      <Compile Include="Assets\Scripts\EspejoRetrovisor.cs" />
+     <Compile Include="Assets\Scripts\LucesDeGiro.cs" />
      <Compile Include="Assets\Scripts\Luces_Auto.cs" />
      <Compile Include="Assets\Scripts\MirarAtras.cs" />
      <Compile Include="Assets\Scripts\SimpleCameraController.cs" />

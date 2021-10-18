@@ -13,6 +13,7 @@ public class Luces_Auto : MonoBehaviour
     public Material lucesFrontalesON;
     public Material lucesFrontalesOFF;
 
+
     void Start()
     {
         
@@ -42,6 +43,8 @@ public class Luces_Auto : MonoBehaviour
             luzFrontalIzq.material = lucesFrontalesOFF;
             luzFrontalDer.material = lucesFrontalesOFF;
         }
+        
     }
+
 
 }
