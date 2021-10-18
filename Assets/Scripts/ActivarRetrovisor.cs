@@ -14,7 +14,7 @@ public class ActivarRetrovisor : MonoBehaviour
         retrovisor.SetActive(false);
         texturaRetrovisor.SetActive(false);
         marchaAtras = false;
-}
+    }
 
     // Update is called once per frame
     void Update()
@@ -33,7 +33,7 @@ public class ActivarRetrovisor : MonoBehaviour
                 texturaRetrovisor.SetActive(false);
                 marchaAtras = false;
             }
-            
+
         }
     }
 }
