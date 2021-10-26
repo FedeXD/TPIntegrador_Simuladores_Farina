@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Gasolinera
   - Obstaculo
+  - ItemVida
   layers:
   - Default
   - TransparentFX

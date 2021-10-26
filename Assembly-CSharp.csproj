@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\ActivarRetrovisor.cs" />
+     <Compile Include="Assets\Scripts\BarraDeVida.cs" />
      <Compile Include="Assets\Scripts\CambiarCamara.cs" />
      <Compile Include="Assets\Scripts\Combustible.cs" />
      <Compile Include="Assets\Scripts\Control_Camara.cs" />
@@ -64,6 +65,7 @@
      <Compile Include="Assets\Scripts\LucesDeGiro.cs" />
      <Compile Include="Assets\Scripts\Luces_Auto.cs" />
      <Compile Include="Assets\Scripts\MirarAtras.cs" />
+     <Compile Include="Assets\Scripts\RecuperarVida.cs" />
      <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
      <Compile Include="Assets\Scripts\Sonido_Auto.cs" />
      <Compile Include="Assets\Scripts\Velocimetro.cs" />

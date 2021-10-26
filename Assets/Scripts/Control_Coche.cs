@@ -17,16 +17,23 @@ public class Control_Coche : MonoBehaviour
     public float potenciaMotor; 
     public float anguloDireccionMaximo; //el angulo de direccion maximo que la rueda puede tener para moverse de izquierda a derecha
 
-
     public static Control_Coche controlCoche;
     public float velocidadMaxima = 100;
     public float velocidadCoche;
     Rigidbody rb;
+
+    public int vidaMaxima = 100;
+    public int vida;
+
+    public BarraDeVida barraDeVida;
     
     public void Start()
     {
         controlCoche = this;
         rb = GetComponent<Rigidbody>();
+        vida = vidaMaxima;
+        barraDeVida.VidaMaxima(vidaMaxima);
+
     }
     public void FixedUpdate()
     {
@@ -57,6 +64,21 @@ public class Control_Coche : MonoBehaviour
         {
             Combustible.cmstible.movimientoCoche(false);
         }
+    }
+
+    public void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Obstaculo"))
+        {
+            RecibirDaño(5);
+        }
+        
+    }
+
+    public void RecibirDaño(int daño)
+    {
+        vida -= daño;
+        barraDeVida.Vida(vida);
     }
 
 
