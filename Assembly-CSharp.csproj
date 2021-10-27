@@ -62,6 +62,7 @@
      <Compile Include="Assets\Scripts\Combustible.cs" />
      <Compile Include="Assets\Scripts\Control_Camara.cs" />
      <Compile Include="Assets\Scripts\Control_Coche.cs" />
+     <Compile Include="Assets\Scripts\Dinero.cs" />
      <Compile Include="Assets\Scripts\EspejoRetrovisor.cs" />
      <Compile Include="Assets\Scripts\LucesDeGiro.cs" />
      <Compile Include="Assets\Scripts\Luces_Auto.cs" />

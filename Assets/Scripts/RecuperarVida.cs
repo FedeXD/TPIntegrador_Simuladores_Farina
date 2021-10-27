@@ -16,6 +16,7 @@ public class RecuperarVida : MonoBehaviour
         {
             vida = vidaMaxima;
             barraDeVida.VidaMaxima(vidaMaxima);
+            Destroy(collider.gameObject);
         }
     }
 
