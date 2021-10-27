@@ -57,6 +57,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\ActivarRetrovisor.cs" />
      <Compile Include="Assets\Scripts\BarraDeVida.cs" />
+     <Compile Include="Assets\Scripts\Bocina.cs" />
      <Compile Include="Assets\Scripts\CambiarCamara.cs" />
      <Compile Include="Assets\Scripts\Combustible.cs" />
      <Compile Include="Assets\Scripts\Control_Camara.cs" />
