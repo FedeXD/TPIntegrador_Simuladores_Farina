@@ -39,4 +39,10 @@ public class LucesDeGiro : MonoBehaviour
         luzGiroIzq.material = luzGiroIzqON;
         luzGiroDer.material = luzGiroDerON;
     }
+
+    public void ApagarTodas()
+    {
+        luzGiroIzq.material = luzGiroIzqOFF;
+        luzGiroDer.material = luzGiroDerOFF;
+    }
 }
