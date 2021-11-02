@@ -70,6 +70,7 @@
      <Compile Include="Assets\Scripts\RecuperarVida.cs" />
      <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
      <Compile Include="Assets\Scripts\Sonido_Auto.cs" />
+     <Compile Include="Assets\Scripts\SpawnearCoche.cs" />
      <Compile Include="Assets\Scripts\Velocimetro.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
  <Reference Include="UnityEngine">
