@@ -5,8 +5,6 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class Control_AutoTrafico : MonoBehaviour
 {
-    public GameObject[] prefabAuto;
-
     Rigidbody rb;
 
     public float velocidad;
@@ -19,7 +17,7 @@ public class Control_AutoTrafico : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
-    public void Movimiento(Vector3 movimientoInput)
+    public void Movimiento(Vector2 movimientoInput)
     {
         this.movimiento = movimientoInput;
     }
@@ -28,8 +26,8 @@ public class Control_AutoTrafico : MonoBehaviour
     {
         if(rb.velocity.magnitude < velocidadMaxima)
         {
-            rb.AddForce(movimiento.z * transform.forward * velocidad);
+            rb.AddForce(movimiento.y * transform.forward * velocidad);
         }
-        rb.AddTorque(movimiento.x * Vector3.forward * rotacion * movimiento.z);
+        rb.AddTorque(movimiento.x * Vector3.forward * rotacion * movimiento.y);
     }
 }
