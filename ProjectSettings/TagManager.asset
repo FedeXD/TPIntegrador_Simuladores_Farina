@@ -7,6 +7,8 @@ TagManager:
   - Gasolinera
   - Obstaculo
   - ItemVida
+  - waypoint
+  - waypoint2
   layers:
   - Default
   - TransparentFX

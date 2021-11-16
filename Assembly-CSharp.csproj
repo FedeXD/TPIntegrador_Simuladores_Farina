@@ -56,6 +56,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\ActivarRetrovisor.cs" />
+     <Compile Include="Assets\Scripts\Auto_Waypoint.cs" />
+     <Compile Include="Assets\Scripts\Auto_Waypoint2.cs" />
      <Compile Include="Assets\Scripts\BarraDeVida.cs" />
      <Compile Include="Assets\Scripts\Bocina.cs" />
      <Compile Include="Assets\Scripts\CambiarCamara.cs" />
@@ -73,6 +75,7 @@
      <Compile Include="Assets\Scripts\Sonido_Auto.cs" />
      <Compile Include="Assets\Scripts\SpawnearCoche.cs" />
      <Compile Include="Assets\Scripts\Velocimetro.cs" />
+     <Compile Include="Assets\Scripts\Waypoints.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Editor/2019.4.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
