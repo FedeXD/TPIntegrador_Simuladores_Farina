@@ -10,10 +10,15 @@ public class Combustible : MonoBehaviour
     private bool cocheAcelera;
     private float combustibleDecrece = 2f;
     public float intervalo = 1;
+    public AudioClip combustibleRecargado;
+    public Text naftaRecargada;
+    private float aparecerTexto = 2f;
+    private float desaparecerTexto;
 
     public static Combustible cmstible;
     void Start()
     {
+        naftaRecargada.enabled = false;
         cmstible = this;
         combustibleDecrece = intervalo;
     }
@@ -46,6 +51,14 @@ public class Combustible : MonoBehaviour
         if (collider.tag == "Gasolinera")
         {
             combustible = 150f;
+            AudioSource.PlayClipAtPoint(combustibleRecargado, transform.position);
+            naftaRecargada.enabled = true;
+            desaparecerTexto = Time.time + aparecerTexto;
+            if (naftaRecargada.enabled && (Time.time >= desaparecerTexto))
+            {
+                naftaRecargada.enabled = false;
+
+            }
             Destroy(collider.gameObject);
         }
     }

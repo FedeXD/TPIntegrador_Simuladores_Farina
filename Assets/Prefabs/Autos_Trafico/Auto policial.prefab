@@ -386,6 +386,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3654087264323987733}
   - component: {fileID: 6463444911411777906}
+  - component: {fileID: -4279617815689709623}
   m_Layer: 0
   m_Name: Auto policial
   m_TagString: Enemigo
@@ -430,9 +431,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Jugador: {fileID: 2206073786955875674, guid: 09c41b459769d5541aa3f9e97eb7c062, type: 3}
-  juegoTerminado: {fileID: 6754646800454687503, guid: 2ecece18c03eb7c4fb1712bcf6085d40,
-    type: 3}
-  elJuegoEstaActivo: 1
+--- !u!195 &-4279617815689709623
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4178845318072185775}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 1.18
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &4827092545829041416
 GameObject:
   m_ObjectHideFlags: 0

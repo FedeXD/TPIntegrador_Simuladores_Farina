@@ -10,15 +10,10 @@ public class Coche_Policial : MonoBehaviour
 
     public Transform Jugador;
 
-    public Text juegoTerminado;
-    public bool elJuegoEstaActivo;
-
-
     void Start()
     {
         Patrulla = GetComponent<NavMeshAgent>();
-        juegoTerminado.gameObject.SetActive(false);
-        elJuegoEstaActivo = true;
+
 
     }
 
@@ -28,13 +23,5 @@ public class Coche_Policial : MonoBehaviour
         Patrulla.SetDestination(Jugador.position);
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            juegoTerminado.gameObject.SetActive(true);
-            elJuegoEstaActivo = false;
-            Control_Coche.rb.isKinematic = false;
-        }
-    }
+    
 }

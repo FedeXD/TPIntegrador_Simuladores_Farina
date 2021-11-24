@@ -26,6 +26,10 @@ public class Control_Coche : MonoBehaviour
     public static Rigidbody rb;
     public int vidaMaxima = 100;
     public int vida;
+    public AudioClip choque;
+    public Text juegoTerminado;
+    public bool elJuegoEstaActivo;
+    public GameObject spawnPolicia;
 
     public BarraDeVida barraDeVida;
     
@@ -35,6 +39,9 @@ public class Control_Coche : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         vida = vidaMaxima;
         barraDeVida.VidaMaxima(vidaMaxima);
+        juegoTerminado.gameObject.SetActive(false);
+        elJuegoEstaActivo = true;
+        spawnPolicia.SetActive(false);
 
     }
     public void FixedUpdate()
@@ -72,10 +79,16 @@ public class Control_Coche : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Obstaculo"))
         {
+            AudioSource.PlayClipAtPoint(choque, transform.position);
             RecibirDaño(5);
-
+            spawnPolicia.SetActive(true);
         }
-        
+        if (collision.gameObject.CompareTag("Enemigo"))
+        {
+            juegoTerminado.gameObject.SetActive(true);
+            elJuegoEstaActivo = false;
+            rb.isKinematic = false;
+        }
 
     }
 

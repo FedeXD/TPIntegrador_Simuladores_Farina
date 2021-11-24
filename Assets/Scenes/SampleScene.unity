@@ -1526,6 +1526,7 @@ RectTransform:
   - {fileID: 151089847}
   - {fileID: 2055094379}
   - {fileID: 976035004}
+  - {fileID: 1851607489}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5209,90 +5210,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019999998, y: 0.019999998, z: 0.019999998}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1001 &234010320
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3654087264323987733, guid: bcbcbb0a40bf3204db88db3e9fae1a55,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.5258
-      objectReference: {fileID: 0}
-    - target: {fileID: 3654087264323987733, guid: bcbcbb0a40bf3204db88db3e9fae1a55,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 8.6506
-      objectReference: {fileID: 0}
-    - target: {fileID: 3654087264323987733, guid: bcbcbb0a40bf3204db88db3e9fae1a55,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -5.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3654087264323987733, guid: bcbcbb0a40bf3204db88db3e9fae1a55,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3654087264323987733, guid: bcbcbb0a40bf3204db88db3e9fae1a55,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3654087264323987733, guid: bcbcbb0a40bf3204db88db3e9fae1a55,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3654087264323987733, guid: bcbcbb0a40bf3204db88db3e9fae1a55,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3654087264323987733, guid: bcbcbb0a40bf3204db88db3e9fae1a55,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 3654087264323987733, guid: bcbcbb0a40bf3204db88db3e9fae1a55,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3654087264323987733, guid: bcbcbb0a40bf3204db88db3e9fae1a55,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3654087264323987733, guid: bcbcbb0a40bf3204db88db3e9fae1a55,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4178845318072185775, guid: bcbcbb0a40bf3204db88db3e9fae1a55,
-        type: 3}
-      propertyPath: m_Name
-      value: Auto policial
-      objectReference: {fileID: 0}
-    - target: {fileID: 4178845318072185775, guid: bcbcbb0a40bf3204db88db3e9fae1a55,
-        type: 3}
-      propertyPath: m_TagString
-      value: Enemigo
-      objectReference: {fileID: 0}
-    - target: {fileID: 6463444911411777906, guid: bcbcbb0a40bf3204db88db3e9fae1a55,
-        type: 3}
-      propertyPath: Jugador
-      value: 
-      objectReference: {fileID: 986159634}
-    - target: {fileID: 6463444911411777906, guid: bcbcbb0a40bf3204db88db3e9fae1a55,
-        type: 3}
-      propertyPath: juegoTerminado
-      value: 
-      objectReference: {fileID: 976035005}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: bcbcbb0a40bf3204db88db3e9fae1a55, type: 3}
 --- !u!1 &236019346
 GameObject:
   m_ObjectHideFlags: 0
@@ -17828,6 +17745,51 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019999998, y: 0.019999998, z: 0.019999998}
   m_Center: {x: 0, y: -0.0000009536743, z: 0}
+--- !u!1 &892464465
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 892464467}
+  - component: {fileID: 892464466}
+  m_Layer: 0
+  m_Name: SpawnPolicia
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &892464466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892464465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3922a14fadf9784a90496f857d9ae32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patrulla: {fileID: 4178845318072185775, guid: bcbcbb0a40bf3204db88db3e9fae1a55,
+    type: 3}
+--- !u!4 &892464467
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892464465}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -22.7, y: 8.14, z: 40.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &905281219
 GameObject:
   m_ObjectHideFlags: 0
@@ -30587,34 +30549,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7428782336696667540}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1612409497 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4178845318072185775, guid: bcbcbb0a40bf3204db88db3e9fae1a55,
-    type: 3}
-  m_PrefabInstance: {fileID: 234010320}
-  m_PrefabAsset: {fileID: 0}
---- !u!195 &1612409500
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1612409497}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 0.86
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!1 &1616759788
 GameObject:
   m_ObjectHideFlags: 0
@@ -34835,6 +34769,84 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019999998, y: 0.019999998, z: 0.019999998}
   m_Center: {x: 0, y: -0.00000047683716, z: 9.313226e-10}
+--- !u!1 &1851607488
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1851607489}
+  - component: {fileID: 1851607491}
+  - component: {fileID: 1851607490}
+  m_Layer: 5
+  m_Name: naftaRecargada
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1851607489
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851607488}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.52199, y: 0.8263594, z: 1}
+  m_Children: []
+  m_Father: {fileID: 68835105}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 245.8, y: -167}
+  m_SizeDelta: {x: 272.18683, y: 68.4641}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1851607490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851607488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0.065164566, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 25
+    m_FontStyle: 1
+    m_BestFit: 1
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: NAFTA RECARGADA
+--- !u!222 &1851607491
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851607488}
+  m_CullTransparentMesh: 0
 --- !u!1 &1874904416
 GameObject:
   m_ObjectHideFlags: 0
@@ -40759,6 +40771,26 @@ PrefabInstance:
       propertyPath: barraDeVida
       value: 
       objectReference: {fileID: 264630620}
+    - target: {fileID: 2206073786955875672, guid: 09c41b459769d5541aa3f9e97eb7c062,
+        type: 3}
+      propertyPath: choque
+      value: 
+      objectReference: {fileID: 8300000, guid: 48906dd7272293a47ac4266558b3e22a, type: 3}
+    - target: {fileID: 2206073786955875672, guid: 09c41b459769d5541aa3f9e97eb7c062,
+        type: 3}
+      propertyPath: juegoTerminado
+      value: 
+      objectReference: {fileID: 976035005}
+    - target: {fileID: 2206073786955875672, guid: 09c41b459769d5541aa3f9e97eb7c062,
+        type: 3}
+      propertyPath: elJuegoEstaActivo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2206073786955875672, guid: 09c41b459769d5541aa3f9e97eb7c062,
+        type: 3}
+      propertyPath: spawnPolicia
+      value: 
+      objectReference: {fileID: 892464465}
     - target: {fileID: 2206073786955875674, guid: 09c41b459769d5541aa3f9e97eb7c062,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -40819,6 +40851,16 @@ PrefabInstance:
       propertyPath: combustibleT
       value: 
       objectReference: {fileID: 1801787329}
+    - target: {fileID: 2206073786955875675, guid: 09c41b459769d5541aa3f9e97eb7c062,
+        type: 3}
+      propertyPath: combustibleRecargado
+      value: 
+      objectReference: {fileID: 8300000, guid: e790fe9dd352fd349a12f8adbdbbf087, type: 3}
+    - target: {fileID: 2206073786955875675, guid: 09c41b459769d5541aa3f9e97eb7c062,
+        type: 3}
+      propertyPath: naftaRecargada
+      value: 
+      objectReference: {fileID: 1851607490}
     - target: {fileID: 2206073786955875679, guid: 09c41b459769d5541aa3f9e97eb7c062,
         type: 3}
       propertyPath: barraDeVida

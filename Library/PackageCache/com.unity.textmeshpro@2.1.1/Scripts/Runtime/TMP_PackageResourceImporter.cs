@@ -73,7 +73,6 @@ namespace TMPro
                 }
                 GUILayout.EndVertical();
             }
-            GUILayout.BeginVertical();
             GUILayout.EndVertical();
             GUILayout.Space(5f);
         }
