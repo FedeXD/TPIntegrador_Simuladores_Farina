@@ -9,6 +9,7 @@ TagManager:
   - ItemVida
   - waypoint
   - waypoint2
+  - Enemigo
   layers:
   - Default
   - TransparentFX

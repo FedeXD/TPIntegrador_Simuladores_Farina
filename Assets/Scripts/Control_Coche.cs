@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [System.Serializable]
 public class Eje
@@ -8,11 +9,13 @@ public class Eje
     public WheelCollider ruedaIzquierda; 
     public WheelCollider ruedaDerecha;
     public bool motor; 
-    public bool direccion; 
+    public bool direccion;
+
 }
 
 public class Control_Coche : MonoBehaviour
 {
+
     public List<Eje> eje;
     public float potenciaMotor; 
     public float anguloDireccionMaximo; //el angulo de direccion maximo que la rueda puede tener para moverse de izquierda a derecha
@@ -20,8 +23,7 @@ public class Control_Coche : MonoBehaviour
     public static Control_Coche controlCoche;
     public float velocidadMaxima = 100;
     public float velocidadCoche;
-    Rigidbody rb;
-
+    public static Rigidbody rb;
     public int vidaMaxima = 100;
     public int vida;
 
@@ -71,8 +73,10 @@ public class Control_Coche : MonoBehaviour
         if (collision.gameObject.CompareTag("Obstaculo"))
         {
             RecibirDaño(5);
+
         }
         
+
     }
 
     public void RecibirDaño(int daño)

@@ -16,7 +16,7 @@ public class Dinero : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Obstaculo"))
         {
-            dinero -= 500f;
+            dinero -= 100f;
         }
     }
 
