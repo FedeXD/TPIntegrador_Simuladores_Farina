@@ -30,6 +30,8 @@ public class Control_Coche : MonoBehaviour
     public Text juegoTerminado;
     public bool elJuegoEstaActivo;
     public GameObject spawnPolicia;
+    public GameObject spawnPolicia2;
+    public GameObject spawnPolicia3;
 
     public BarraDeVida barraDeVida;
     
@@ -42,7 +44,8 @@ public class Control_Coche : MonoBehaviour
         juegoTerminado.gameObject.SetActive(false);
         elJuegoEstaActivo = true;
         spawnPolicia.SetActive(false);
-
+        spawnPolicia2.SetActive(false);
+        spawnPolicia3.SetActive(false);
     }
     public void FixedUpdate()
     {
@@ -82,6 +85,8 @@ public class Control_Coche : MonoBehaviour
             AudioSource.PlayClipAtPoint(choque, transform.position);
             RecibirDaño(5);
             spawnPolicia.SetActive(true);
+            spawnPolicia2.SetActive(true);
+            spawnPolicia3.SetActive(true);
         }
         if (collision.gameObject.CompareTag("Enemigo"))
         {

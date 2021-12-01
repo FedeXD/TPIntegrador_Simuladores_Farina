@@ -55,7 +55,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Coche_Policial.cs" />
      <Compile Include="Assets\GameManager.cs" />
      <Compile Include="Assets\Scripts\ActivarRetrovisor.cs" />
      <Compile Include="Assets\Scripts\Auto_Waypoint.cs" />
@@ -63,6 +62,7 @@
      <Compile Include="Assets\Scripts\BarraDeVida.cs" />
      <Compile Include="Assets\Scripts\Bocina.cs" />
      <Compile Include="Assets\Scripts\CambiarCamara.cs" />
+     <Compile Include="Assets\Scripts\Coche_Policial.cs" />
      <Compile Include="Assets\Scripts\Combustible.cs" />
      <Compile Include="Assets\Scripts\Control_AutoTrafico.cs" />
      <Compile Include="Assets\Scripts\Control_Camara.cs" />
