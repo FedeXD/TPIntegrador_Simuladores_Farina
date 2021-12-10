@@ -17,7 +17,7 @@ public class Control_Coche : MonoBehaviour
 {
 
     public List<Eje> eje;
-    public float potenciaMotor; 
+    public float potenciaMotor;
     public float anguloDireccionMaximo; //el angulo de direccion maximo que la rueda puede tener para moverse de izquierda a derecha
 
     public static Control_Coche controlCoche;
@@ -32,9 +32,10 @@ public class Control_Coche : MonoBehaviour
     public GameObject spawnPolicia;
     public GameObject spawnPolicia2;
     public GameObject spawnPolicia3;
-
+    public GameObject vueltaCompleta;
+    public GameObject vueltaMedia;
     public BarraDeVida barraDeVida;
-    
+
     public void Start()
     {
         controlCoche = this;
@@ -68,7 +69,7 @@ public class Control_Coche : MonoBehaviour
             }
         }
 
-        if(motor == potenciaMotor)
+        if (motor == potenciaMotor)
         {
             Combustible.cmstible.movimientoCoche(true);
         }
@@ -94,8 +95,18 @@ public class Control_Coche : MonoBehaviour
             elJuegoEstaActivo = false;
             rb.isKinematic = false;
         }
-
     }
+
+    public void OnTriggerEnter(Collider collider)
+    {
+        if (collider.enabled == true)
+        {
+            vueltaMedia.SetActive(false);
+            vueltaCompleta.SetActive(true);
+        }
+        
+    }
+
 
     public void RecibirDaño(int daño)
     {

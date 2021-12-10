@@ -67,6 +67,7 @@
      <Compile Include="Assets\Scripts\Control_AutoTrafico.cs" />
      <Compile Include="Assets\Scripts\Control_Camara.cs" />
      <Compile Include="Assets\Scripts\Control_Coche.cs" />
+     <Compile Include="Assets\Scripts\CuentaRegresiva.cs" />
      <Compile Include="Assets\Scripts\Dinero.cs" />
      <Compile Include="Assets\Scripts\EspejoRetrovisor.cs" />
      <Compile Include="Assets\Scripts\LucesDeGiro.cs" />
@@ -77,6 +78,7 @@
      <Compile Include="Assets\Scripts\Sonido_Auto.cs" />
      <Compile Include="Assets\Scripts\SpawnPolicia.cs" />
      <Compile Include="Assets\Scripts\SpawnearCoche.cs" />
+     <Compile Include="Assets\Scripts\TiempoCarrera.cs" />
      <Compile Include="Assets\Scripts\Velocimetro.cs" />
      <Compile Include="Assets\Scripts\Waypoints.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
