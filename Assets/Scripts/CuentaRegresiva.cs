@@ -38,7 +38,9 @@ public class CuentaRegresiva : MonoBehaviour
         cuentaRegresiva.SetActive(true);
         yield return new WaitForSeconds(1);
         cuentaRegresiva.SetActive(false);
+        cuentaRegresiva.GetComponent<Text>().text = "YA";
         cuentaRegresivaListo.Play();
+        cuentaRegresiva.SetActive(true);
         tiempoCarrera.SetActive(true);
         Coche.GetComponent<Rigidbody>().isKinematic = false;
 
