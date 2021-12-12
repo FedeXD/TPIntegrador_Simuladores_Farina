@@ -10,7 +10,8 @@ TagManager:
   - waypoint
   - waypoint2
   - Enemigo
-  - PuntoMedio
+  - Oponente
+  - VueltaCompleta
   layers:
   - Default
   - TransparentFX

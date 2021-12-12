@@ -24,6 +24,7 @@ public class Auto_Waypoint : MonoBehaviour
         {
             objetivo = collider.gameObject.GetComponent<Waypoints>().waypointProximo;
             transform.LookAt(new Vector3(objetivo.position.x, transform.position.y, objetivo.position.z));
+            
         }
     }
 }

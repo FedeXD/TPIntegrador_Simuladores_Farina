@@ -9,14 +9,15 @@ public class CuentaRegresiva : MonoBehaviour
     public AudioSource contandoHaciaAtras;
     public AudioSource cuentaRegresivaListo;
     public GameObject tiempoCarrera;
+    public GameObject oponente;
     public Rigidbody Coche;
-
+    
 
     void Start()
     {
+        StartCoroutine(CuentaRegresivaEnumerator());     
         Coche.GetComponent<Rigidbody>().isKinematic = true;
-        StartCoroutine(CuentaRegresivaEnumerator());
-
+        oponente.GetComponent<Auto_Waypoint>().enabled = false;
     }
 
     IEnumerator CuentaRegresivaEnumerator()
@@ -43,7 +44,7 @@ public class CuentaRegresiva : MonoBehaviour
         cuentaRegresiva.SetActive(true);
         tiempoCarrera.SetActive(true);
         Coche.GetComponent<Rigidbody>().isKinematic = false;
-
+        oponente.GetComponent<Auto_Waypoint>().enabled = true;
     }
 
 }

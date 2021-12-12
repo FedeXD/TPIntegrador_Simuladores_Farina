@@ -97,16 +97,6 @@ public class Control_Coche : MonoBehaviour
         }
     }
 
-    public void OnTriggerEnter(Collider collider)
-    {
-        if (collider.enabled == true)
-        {
-            vueltaMedia.SetActive(false);
-            vueltaCompleta.SetActive(true);
-        }
-        
-    }
-
 
     public void RecibirDaño(int daño)
     {
