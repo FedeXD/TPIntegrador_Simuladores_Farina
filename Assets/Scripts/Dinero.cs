@@ -10,7 +10,7 @@ public class Dinero : MonoBehaviour
 
     void Update()
     {
-        dineroTexto.text = "Dinero: " + dinero;
+        dineroTexto.text = " " + dinero;
     }
     private void OnCollisionEnter(Collision collision)
     {

@@ -38,7 +38,7 @@ public class Combustible : MonoBehaviour
             }
 
         }
-        combustibleT.text = "Combustible: " + combustible;
+        combustibleT.text = " " + combustible;
     }
 
     public void movimientoCoche(bool seMueve)

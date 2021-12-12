@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class VueltaCantidad : MonoBehaviour
 {
@@ -13,15 +14,15 @@ public class VueltaCantidad : MonoBehaviour
     void Start()
     {
         colliderVuelta.GetComponent<BoxCollider>().enabled = true;
-        Coche.GetComponent<Rigidbody>().isKinematic = false;
     }
 
     void Update()
     {
-        if(vueltasHechas == 3)
+        if(vueltasHechas == 4)
         {
             Coche.GetComponent<Rigidbody>().isKinematic = true;
             colliderVuelta.GetComponent<BoxCollider>().enabled = false;
+            SceneManager.LoadScene(3);
         }
     }
 
