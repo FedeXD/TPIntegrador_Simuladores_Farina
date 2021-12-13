@@ -12,6 +12,7 @@ TagManager:
   - Enemigo
   - Oponente
   - VueltaCompleta
+  - EntrarCarrera
   layers:
   - Default
   - TransparentFX

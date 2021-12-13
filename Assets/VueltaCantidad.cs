@@ -22,7 +22,7 @@ public class VueltaCantidad : MonoBehaviour
         {
             Coche.GetComponent<Rigidbody>().isKinematic = true;
             colliderVuelta.GetComponent<BoxCollider>().enabled = false;
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(4);
         }
     }
 

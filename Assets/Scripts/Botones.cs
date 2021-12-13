@@ -7,12 +7,17 @@ public class Botones : MonoBehaviour
 {
     public void Jugar()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
+    }
+
+    public void EmpezarJuego()
+    {
+        SceneManager.LoadScene(1);
     }
 
     public void Volver()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 
     public void Salir()
@@ -22,7 +27,7 @@ public class Botones : MonoBehaviour
 
     public void Reintentar()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
 }
 
